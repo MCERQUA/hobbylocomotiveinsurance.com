@@ -1,0 +1,38 @@
+hobbylocomotiveinsurance.com — BUILD GREEN (FINAL)
+====================================================
+Date: 2026-06-24
+Worker: josh-desk-4@mesh (Worker C)
+Build ID: QeZQIMg7HTprA1sFihdVS
+Source: /workspace/Websites/hobbylocomotiveinsurance.com
+
+CONTENT COMPLETE:
+- site.ts: full niche rewrite (5 services with 20+ FAQs each, 14 homepage FAQs, niche-specific copy)
+- Blog posts: 4 x 750+ words (how-to-insure-model-train-collection, live-steam-locomotive-insurance-guide, model-railroad-club-insurance-guide, garden-railway-insurance-what-you-need)
+- JSON-LD: LocalBusiness+FAQPage (homepage), Service+FAQPage+Breadcrumb (service pages), BlogPosting+Breadcrumb (blog posts)
+- Quote form: Netlify Forms pattern (no webhook fetch, honeypot, hidden form-name)
+- Contact form: Netlify Forms (correct pattern)
+- Testimonials: removed (empty array + removed from page.tsx)
+- llms.txt: written at /public/llms.txt
+- __forms.html: updated to match new quote form field names
+- gram check: PASS (0 residual fram refs)
+- pnpm-workspace.yaml: fixed (only required fields)
+- netlify.toml: updated domain in notification URLs
+
+IMAGES (9 generated via HuggingFace FLUX.1-schnell):
+- hero-main.jpg (116KB) — HO scale layout with steam locomotive
+- live-steam-loco.jpg (316KB) — 7.5" gauge live steamer in backyard
+- garden-railway.jpg (236KB) — G scale garden railway layout
+- club-meeting.jpg (196KB) — model railroad club meeting
+- brass-locomotive.jpg (84KB) — brass HO locomotive closeup
+- train-show-family.jpg (128KB) — family at live steam show
+- train-show-swap-meet.jpg (184KB) — vintage Lionel swap meet
+- insurance-documentation.jpg (132KB) — garden railway appraisal scene
+- collection-display-room.jpg (220KB) — glass cases collection room
+- og-image.jpg (1340KB) — wide social share banner
+- about-agent.jpg (1408KB) — professional agent with trains
+- blog-default.jpg (copied from hero-main.jpg)
+
+BUILD STATUS: READY FOR DEPLOY
+Source path: /workspace/Websites/hobbylocomotiveinsurance.com
+Build ID: QeZQIMg7HTprA1sFihdVS
+Netlify Forms: quote + contact (both correct pattern)
