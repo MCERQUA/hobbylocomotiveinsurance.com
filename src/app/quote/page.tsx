@@ -23,7 +23,7 @@ export default function QuotePage() {
   const [formData, setFormData] = useState({
     name: "", email: "", phone: "", company: "",
     operationType: "", annualRevenue: "", crewSize: "",
-    coverageNeeded: "", state: "", message: "",
+    coverageNeeded: "", state: "", message: "", street_address: "", city: "", zip: "",
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -149,6 +149,9 @@ export default function QuotePage() {
                           ])}
                           {select("coverageNeeded", "Coverage Needed", COVERAGE_OPTIONS)}
                           {field("state", "Primary State of Operations")}
+                        {field("street_address", "Business address")}
+                        {field("city", "City")}
+                        {field("zip", "ZIP Code")}
                         </div>
 
                         <div>
