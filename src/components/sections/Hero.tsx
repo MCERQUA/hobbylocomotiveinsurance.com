@@ -82,7 +82,7 @@ export function Hero() {
 
           <FadeIn delay={0.12} direction="left" className="relative h-[460px] lg:h-[600px] rounded-3xl overflow-hidden shadow-float ring-1 ring-line">
             <Image
-              src="/images/hero-collection.jpg"
+              src="/images/hero-main.jpg"
               alt="Detailed HO scale model train layout with a steam locomotive on curving track"
               fill
               className="object-cover"

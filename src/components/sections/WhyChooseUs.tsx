@@ -38,7 +38,7 @@ export function WhyChooseUs() {
           <FadeIn direction="right" className="relative">
             <div className="relative h-[440px] sm:h-[520px] rounded-3xl overflow-hidden shadow-float ring-1 ring-line">
               <Image
-                src="/images/why-specialist.jpg"
+                src="/images/brass-locomotive.jpg"
                 alt="Model railroad enthusiasts examining layouts and locomotives together"
                 fill
                 className="object-cover"
