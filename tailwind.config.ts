@@ -36,14 +36,14 @@ const config: Config = {
         // ── NEW: brand burgundy / oxblood ramp (railroad red) ───────────────
         brand: {
           DEFAULT: "#6E1E2A",
-          bright: "#B0526A", // rosier light stop for gradients on light bg
+          bright: "#B0544C", // rosier light stop for gradients on light bg
           ink: "#400F15", // deepest — footer / stat dark sections
           50: "#F8EDF0",
           100: "#EFD3D9",
-          200: "#DDA6B0",
-          300: "#C57889",
-          400: "#A64E61",
-          500: "#872F44",
+          200: "#DDA8A2",
+          300: "#C57A76",
+          400: "#A6504A",
+          500: "#872F30",
           600: "#6E1E2A",
           700: "#571620",
           800: "#400F15",
@@ -74,12 +74,12 @@ const config: Config = {
           DEFAULT: "#6E1E2A", // → brand burgundy
           dark: "#571620",
           50: "#F8EDF0",
-          light: "#872F44",
+          light: "#872F30",
         },
         "ember-orange": {
           DEFAULT: "#6E1E2A", // → burgundy (safe contrast for buttons/text everywhere)
           dark: "#571620",
-          light: "#A64E61",
+          light: "#A6504A",
         },
         "warm-white": "#FAF5EC", // → cream canvas
         bark: {
